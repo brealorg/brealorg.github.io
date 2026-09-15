@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "channel": "beta",
+  "versionCode": 237,
+  "versionName": "0.77.0-beta.3",
+  "publishedAt": "2026-09-15T21:35:21Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.77.0-beta.3",
+  "apkSha256": "b5bbe824b5820ad202a7af2107ff695b5fd55ca19de56c0196a290388a9599ca",
+  "headline": "Third public beta of Subshell.",
+  "highlights": [
+    "Expanded Mod Tools with reports, content controls, Mod Log, user management, and moderator team administration.",
+    "Portable backup and restore now covers more community state and optional post drafts with transactional restore.",
+    "Improved Reddit video reliability with poster continuity, returned-feed audio fixes, fallback handling, and landscape controls.",
+    "More flexible comment hierarchy and collapse presentation.",
+    "Built-in GitHub beta update awareness with What's New and an in-app changelog."
+  ]
+}
