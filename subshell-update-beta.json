@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 237,
-  "versionName": "0.77.0-beta.3",
-  "publishedAt": "2026-09-15T21:35:21Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.77.0-beta.3",
-  "apkSha256": "b5bbe824b5820ad202a7af2107ff695b5fd55ca19de56c0196a290388a9599ca",
-  "headline": "Third public beta of Subshell.",
+  "versionCode": 238,
+  "versionName": "0.77.0-beta.4",
+  "publishedAt": "2026-09-18T22:37:28Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.77.0-beta.4",
+  "apkSha256": "565c91e7c019c60d1b818f609e34fa5f3967ac8dec8820117e55fa670a62c19e",
+  "headline": "Fourth public beta of Subshell.",
   "highlights": [
-    "Expanded Mod Tools with reports, content controls, Mod Log, user management, and moderator team administration.",
-    "Portable backup and restore now covers more community state and optional post drafts with transactional restore.",
-    "Improved Reddit video reliability with poster continuity, returned-feed audio fixes, fallback handling, and landscape controls.",
-    "More flexible comment hierarchy and collapse presentation.",
-    "Built-in GitHub beta update awareness with What's New and an in-app changelog."
+    "Native Reddit crossposting now supports destination selection, flair, review, publishing, and immediate canonical post presentation.",
+    "Posts can now be followed and unfollowed directly from the post overflow menu.",
+    "Community user flair support now includes selecting your own flair and richer author flair presentation.",
+    "Configurable swipe actions are available for posts and comments, with gesture arbitration and haptic feedback.",
+    "Cached Home and community feeds now refresh automatically on re-entry, and inline comment images open in the shared fullscreen viewer.",
+    "Video looping is available as an optional setting, alongside refinements to Accounts and searchable Settings."
   ]
 }
