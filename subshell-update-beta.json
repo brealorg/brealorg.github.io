@@ -1,15 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 240,
-  "versionName": "0.77.0-beta.6",
-  "publishedAt": "2026-09-20T11:12:31Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.77.0-beta.6",
-  "apkSha256": "1f239681dc8c1c15d33026a577e34e3086c6828b6b515e5817a46f8d56e1c8cd",
-  "headline": "Sixth public beta of Subshell.",
+  "versionCode": 241,
+  "versionName": "0.77.0-beta.7",
+  "publishedAt": "2026-09-21T15:53:46Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.77.0-beta.7",
+  "apkSha256": "2b5ac7b70f3801af7832c0458d54a1bf2b3c4c833e8d6850781268d589e875e5",
+  "headline": "Seventh public beta of Subshell.",
   "highlights": [
-    "Returning to Home or a community from a post keeps your place in the feed; cached feeds revalidate on first entry and again after fifteen minutes.",
-    "Internal restructuring of app state into focused components and removal of unused screens, with no intended visible changes.",
-    "Same changes as beta.5, republished so the in-app update check can offer it."
+    "Comment author avatars in threads, with a setting to turn them off.",
+    "An open drawer closes on Back or a scrim tap even with comment swipe actions on.",
+    "Moderators can send a removal message after removing a post or comment, with saved responses that can be backed up.",
+    "One composer family everywhere: the same editor, formatting bar, preview and buttons in posts, comments, chat, modmail and New message.",
+    "Editing a post or comment asks before discarding unsaved changes."
   ]
 }
