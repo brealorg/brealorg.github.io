@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 241,
-  "versionName": "0.77.0-beta.7",
-  "publishedAt": "2026-09-21T15:53:46Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.77.0-beta.7",
-  "apkSha256": "2b5ac7b70f3801af7832c0458d54a1bf2b3c4c833e8d6850781268d589e875e5",
-  "headline": "Seventh public beta of Subshell.",
+  "versionCode": 242,
+  "versionName": "0.78.0-beta.1",
+  "publishedAt": "2026-09-27T10:45:56Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.78.0-beta.1",
+  "apkSha256": "40600279d0307a86bbb90711a5fd48e218d6743d635188efda40c34c582906e1",
+  "headline": "Subshell 0.78: app lock, private user notes, sharing into Subshell and content filters everywhere.",
   "highlights": [
-    "Comment author avatars in threads, with a setting to turn them off.",
-    "An open drawer closes on Back or a scrim tap even with comment swipe actions on.",
-    "Moderators can send a removal message after removing a post or comment, with saved responses that can be backed up.",
-    "One composer family everywhere: the same editor, formatting bar, preview and buttons in posts, comments, chat, modmail and New message.",
-    "Editing a post or comment asks before discarding unsaved changes."
+    "Optional app lock: unlock with biometrics or the screen lock, choose when it locks again, and optionally hide what notifications say.",
+    "Private notes and coloured tags on Reddit users, shown next to their name, with an opt-in to include them in backups.",
+    "Share links, text and images from other apps into Subshell to start a post (optional, off by default).",
+    "Content filters now work on community pages, custom feeds and search, can be limited to one community, and can show how many posts they hide.",
+    "Many more Reddit links open inside the app: share links, images and videos, profile tabs, searches, custom feeds and wiki pages.",
+    "Also new: find in thread, jump between top-level comments, in-app text size, pure black theme, launcher shortcuts, gallery downloads, Giphy GIFs and post flair emoji."
   ]
 }
