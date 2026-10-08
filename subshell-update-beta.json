@@ -1,18 +1,24 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 242,
-  "versionName": "0.78.0-beta.1",
-  "publishedAt": "2026-09-27T10:45:56Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.78.0-beta.1",
-  "apkSha256": "40600279d0307a86bbb90711a5fd48e218d6743d635188efda40c34c582906e1",
-  "headline": "Subshell 0.78: app lock, private user notes, sharing into Subshell and content filters everywhere.",
+  "versionCode": 243,
+  "versionName": "0.79-beta",
+  "publishedAt": "2026-10-08T18:29:56Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.79-beta",
+  "apkSha256": "7a8d4e061f5f5d792d86a44a5440606b4be9aca91bf6ef38c51a4a932fc6ef8c",
+  "headline": "Subshell 0.79: saved searches, RedGIFs in the app, Reddit favorites sync and a full review of the code.",
   "highlights": [
-    "Optional app lock: unlock with biometrics or the screen lock, choose when it locks again, and optionally hide what notifications say.",
-    "Private notes and coloured tags on Reddit users, shown next to their name, with an opt-in to include them in backups.",
-    "Share links, text and images from other apps into Subshell to start a post (optional, off by default).",
-    "Content filters now work on community pages, custom feeds and search, can be limited to one community, and can show how many posts they hide.",
-    "Many more Reddit links open inside the app: share links, images and videos, profile tabs, searches, custom feeds and wiki pages.",
-    "Also new: find in thread, jump between top-level comments, in-app text size, pure black theme, launcher shortcuts, gallery downloads, Giphy GIFs and post flair emoji."
+    "New: saved searches in the Search hub, an optional scroll position indicator, RedGIFs clips in the app (with Show NSFW posts) and favorites synced with Reddit.",
+    "Reddit emotes, GIFs and images show inline in posts and comments and can be edited; spoilers stay hidden until tapped; escapes, nested styles and lists render right.",
+    "Safer writing: a post, comment, message or moderator action whose answer was lost is checked with Reddit instead of sent twice, and drafts survive restarts.",
+    "Accounts stay apart: votes, scroll positions, lists and notifications no longer cross between accounts; a notification for another account switches to it.",
+    "Fewer crashes and stalls: the app returns where you were after Android closes it, large photos no longer crash previews, and slow work left the main thread.",
+    "Accessibility: switches, choices and buttons announce what they are and their state, touch targets are larger, and auto-hiding controls follow the system timeout.",
+    "Correctness: votes, refreshes, paging, search results, markdown, flair and moderator tools now do what they show, and Retry picks up where a load failed.",
+    "No lost work: drafts, replies and moderator actions survive Android closing the app or a missing answer from Reddit, and backups read back everything they hold.",
+    "Privacy and security: names and ids stay out of release logs, turning a protection off needs the device unlock, and comment images load only from known image hosts.",
+    "Speed: lists, settings, backups and links read their data off the main thread, caches are capped, and long threads load more replies on their own.",
+    "Also: inbox notifications are on by default, shares and links open in the Subshell you already have, numbers follow your language and word filters match whole words.",
+    "Removed: video downloads. Videos stream; anything an older version downloaded can be deleted in Settings."
   ]
 }
