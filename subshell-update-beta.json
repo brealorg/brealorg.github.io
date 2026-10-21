@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 247,
-  "versionName": "0.83-beta",
-  "publishedAt": "2026-10-18T23:18:44Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.83-beta",
-  "apkSha256": "5ac08501724eb26c98995e007249d03f474f242ba9652e4ce9730fd28a17eaf6",
-  "headline": "Subshell 0.83: choose how posts look, pinned posts first, and pinch to zoom videos",
+  "versionCode": 248,
+  "versionName": "0.84-beta",
+  "publishedAt": "2026-10-21T21:01:13Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.84-beta",
+  "apkSha256": "388fb51767f025a57ba65d985b85721c1da079be70523e5e711c856b07eaa71c",
+  "headline": "Subshell 0.84: new-post notifications, text selection and one sign-in for everything",
   "highlights": [
-    "Choose how posts look: Large, Compact, List or Grid, from the view button beside the feed (and in Settings).",
-    "A community's pinned posts now come first in every sort, as cards or as compact highlights.",
-    "Pinch to zoom videos in the full-screen player (turn it on in Settings).",
-    "A fresh look: Google's Material Symbols icons, Material 3 Expressive motion, and dynamic colour on by default.",
-    "More reliable: one unreadable post no longer breaks a whole feed, removed images say so instead of retrying, and the inbox sync retries on a shaky network."
+    "Get a notification when a community you choose has a new post: \"Notify about new posts\" in the community's ⋮ menu (up to 10 communities).",
+    "Long press to select and copy text in posts, comments and messages, with Android's Copy, Share and Translate.",
+    "Sign-in asks for every permission once. Modmail, mod log and the wiki no longer ask again (accounts signed in before approve one more time).",
+    "If sign-in stops working because Reddit or RedReader changed something, you can edit the redirect URI and user agent yourself, in Settings or during setup.",
+    "Short confirmations such as \"Muted r/x\" now disappear by themselves."
   ]
 }
