@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 248,
-  "versionName": "0.84-beta",
-  "publishedAt": "2026-10-21T21:01:13Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.84-beta",
-  "apkSha256": "388fb51767f025a57ba65d985b85721c1da079be70523e5e711c856b07eaa71c",
-  "headline": "Subshell 0.84: new-post notifications, text selection and one sign-in for everything",
+  "versionCode": 249,
+  "versionName": "0.85-beta",
+  "publishedAt": "2026-10-24T06:18:49Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.85-beta",
+  "apkSha256": "ada13b6509e6300b7952fa7e98b46797e647f0c68e8eb59babab4b0d14aa0f6c",
+  "headline": "Subshell 0.85: a security update for sign-in, notifications and media",
   "highlights": [
-    "Get a notification when a community you choose has a new post: \"Notify about new posts\" in the community's ⋮ menu (up to 10 communities).",
-    "Long press to select and copy text in posts, comments and messages, with Android's Copy, Share and Translate.",
-    "Sign-in asks for every permission once. Modmail, mod log and the wiki no longer ask again (accounts signed in before approve one more time).",
-    "If sign-in stops working because Reddit or RedReader changed something, you can edit the redirect URI and user agent yourself, in Settings or during setup.",
-    "Short confirmations such as \"Muted r/x\" now disappear by themselves."
+    "Signing out of an account now also removes Reddit's web login, unless another signed-in account still uses it.",
+    "The sign-in window opens only Reddit, Google and Apple pages, and a sign-in that fails is also withdrawn at Reddit.",
+    "Other apps can no longer open accounts or screens in subshell. Notifications from before the update just open the app.",
+    "With the app lock on, the recent-apps preview stays blank on Android 12 and older, and new-post notifications from hidden communities don't name them.",
+    "Post images and videos load only from public addresses, images and GIFs share one memory limit, and nothing is written to the system log."
   ]
 }
