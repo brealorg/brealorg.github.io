@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 249,
-  "versionName": "0.85-beta",
-  "publishedAt": "2026-10-24T06:18:49Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.85-beta",
-  "apkSha256": "ada13b6509e6300b7952fa7e98b46797e647f0c68e8eb59babab4b0d14aa0f6c",
-  "headline": "Subshell 0.85: a security update for sign-in, notifications and media",
+  "versionCode": 250,
+  "versionName": "0.86-beta",
+  "publishedAt": "2026-10-26T23:55:35Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.86-beta",
+  "apkSha256": "e171f5ff97080f364e461209c444723e28ec82e7108756517888a668ad001b22",
+  "headline": "Subshell 0.86: reply from notifications, RedGIFs with sound and a faster inbox",
   "highlights": [
-    "Signing out of an account now also removes Reddit's web login, unless another signed-in account still uses it.",
-    "The sign-in window opens only Reddit, Google and Apple pages, and a sign-in that fails is also withdrawn at Reddit.",
-    "Other apps can no longer open accounts or screens in subshell. Notifications from before the update just open the app.",
-    "With the app lock on, the recent-apps preview stays blank on Android 12 and older, and new-post notifications from hidden communities don't name them.",
-    "Post images and videos load only from public addresses, images and GIFs share one memory limit, and nothing is written to the system log."
+    "Private messages and chats arrive as conversation notifications, and you can reply right from the notification.",
+    "RedGIFs clips play with sound, videos pause the moment you switch tabs, and headset or Bluetooth buttons play and pause them.",
+    "The inbox refreshes several times faster, and messages you read elsewhere no longer count as unread.",
+    "You can post to your own profile, and galleries posted from the app show their images again.",
+    "Subshell opens straight to your feeds, and switching dark mode or text size keeps your place, drafts and votes."
   ]
 }
