@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 250,
-  "versionName": "0.86-beta",
-  "publishedAt": "2026-10-26T23:55:35Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.86-beta",
-  "apkSha256": "e171f5ff97080f364e461209c444723e28ec82e7108756517888a668ad001b22",
-  "headline": "Subshell 0.86: reply from notifications, RedGIFs with sound and a faster inbox",
+  "versionCode": 251,
+  "versionName": "0.87-beta",
+  "publishedAt": "2026-10-29T17:08:23Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.87-beta",
+  "apkSha256": "8d15da8fad0ffa70781e0e3a21ac7090f28446de4172da3d709c2222e5848bf9",
+  "headline": "Subshell 0.87: one size for the whole app, save for offline, and a calmer first start",
   "highlights": [
-    "Private messages and chats arrive as conversation notifications, and you can reply right from the notification.",
-    "RedGIFs clips play with sound, videos pause the moment you switch tabs, and headset or Bluetooth buttons play and pause them.",
-    "The inbox refreshes several times faster, and messages you read elsewhere no longer count as unread.",
-    "You can post to your own profile, and galleries posted from the app show their images again.",
-    "Subshell opens straight to your feeds, and switching dark mode or text size keeps your place, drafts and votes."
+    "Settings › Appearance › Size › UI size makes the whole app smaller or larger, from 85 to 110 %: bars, buttons, lists, dialogs and text.",
+    "Save for offline in the Home menu keeps the top 50 posts, their comments and pictures on your phone for when you have no signal.",
+    "A new setting, Show NSFW media, shows NSFW pictures and videos without a tap on each one. Spoilers stay covered.",
+    "New installs set up hand, look, content and notifications in one short flow, and Backup & restore now says what a backup holds.",
+    "Fixes: a crash when a link or notification opened the app, \"r/name\" searches in Discover, a play button flash before autoplay, comment jumps that stopped short, and more."
   ]
 }
