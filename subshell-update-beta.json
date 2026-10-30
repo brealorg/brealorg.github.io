@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 252,
-  "versionName": "0.88-beta",
-  "publishedAt": "2026-10-30T05:17:54Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.88-beta",
-  "apkSha256": "4a646ba0f86c564daf9c87c2715fea70cf78c605bb478b3e647904a7276f4940",
-  "headline": "Subshell 0.88: notifications behind a VPN and for new comments",
+  "versionCode": 253,
+  "versionName": "0.89-beta",
+  "publishedAt": "2026-10-30T18:00:56Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.89-beta",
+  "apkSha256": "4bafd997d189cf847ecace0074668a462f1aecdf6cc8695f848f0790955686bb",
+  "headline": "Subshell 0.89: replies, inbox and links load again",
   "highlights": [
-    "Notifications for messages and new posts now also arrive while a VPN is on for every app. Before, the background check waited for a network without a VPN.",
-    "Watched communities can also notify you about new comments: Settings › Notifications › New posts › Also new comments. Your own posts and comments never notify you.",
-    "If Reddit stops accepting the app's Client ID, subshell shows one notice that says what happened, what still works and where to set another one.",
-    "Long messages in the notice tray open in full with More, and the diagnostic report says when and how Reddit refused a request."
+    "\"More replies\" load again in threads. Reddit started refusing the request subshell used, so replies now load through the thread itself.",
+    "Comments opened from the Inbox, from your profile and from links open again. Reddit also refused the post and comment lookups behind them.",
+    "Community icons, crossposts and edit or delete of your own posts and comments read through requests Reddit still answers.",
+    "Find in a thread now loads the rest of the thread before it searches. The diagnostic report shows how thread reads and Reddit's request limit went.",
+    "In Settings › Accounts, account rows no longer show an arrow that led nowhere. The current account has a check mark."
   ]
 }
