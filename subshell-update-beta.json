@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 254,
-  "versionName": "0.90-beta",
-  "publishedAt": "2026-10-31T18:29:34Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.90-beta",
-  "apkSha256": "5f0b80fc7bf96ea7e6d3d55e874dfb67fb20bd3185810b4b286c68ec32bf97a7",
-  "headline": "Subshell 0.90: home-screen widgets, and plain answers when Reddit blocks",
+  "versionCode": 255,
+  "versionName": "0.91-beta",
+  "publishedAt": "2026-11-01T16:45:13Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.91-beta",
+  "apkSha256": "0faac3490f6be4406fab2e72cfd25ffeb5ff94918fc83181228c422f9e258112",
+  "headline": "Subshell 0.91: export your Reddit data, and update from inside the app",
   "highlights": [
-    "Two home-screen widgets. Inbox shows how many items are unread and the newest ones. Posts shows Home or a community you've joined. Add them from your launcher's widget list.",
-    "When Reddit blocks a request from third-party apps, subshell now says so instead of showing a generic error. The mod queue no longer blames your moderator role for it.",
-    "Settings › Diagnostics › Check Reddit access shows which kinds of reads Reddit answers right now and adds the result to the diagnostic report.",
-    "Open prefilled GitHub issue copies the report so you can paste it.",
-    "Hide read posts is remembered for each account, and a greyed-out item says why. Reset read markers no longer looks like a refresh button.",
-    "A short list no longer hides the top bar and bottom navigation when you drag it, and an empty Unread inbox no longer keeps loading older pages."
+    "Settings › Updates shows your version and the newest one and checks on request. From the next release on, Update downloads it, checks it and hands it to Android to install.",
+    "When a new version is out, a notice says so. Close it and it stays away for a day.",
+    "Settings › Accounts › Export your Reddit data saves your saved posts, votes, posts, comments, communities and messages as a ZIP in Downloads.",
+    "Optional: tap a post's title to hide its text, like a comment. Turn it on in Settings › Comments & notifications.",
+    "More replies, community icons and find in thread work more reliably in big threads and ask Reddit less often."
   ]
 }
