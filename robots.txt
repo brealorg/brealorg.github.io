@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /oauth/callback
+Sitemap: https://brealorg.github.io/subshell/sitemap.xml
