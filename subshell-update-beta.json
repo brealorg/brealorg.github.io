@@ -1,17 +1,20 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 255,
-  "versionName": "0.91-beta",
-  "publishedAt": "2026-11-01T16:45:13Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.91-beta",
-  "apkSha256": "0faac3490f6be4406fab2e72cfd25ffeb5ff94918fc83181228c422f9e258112",
-  "headline": "Subshell 0.91: export your Reddit data, and update from inside the app",
+  "versionCode": 256,
+  "versionName": "0.92-beta",
+  "publishedAt": "2026-11-05T01:11:06Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.92-beta",
+  "apkSha256": "194d7136d5b4dde5aa65a8abe9f100000b305ec9546b3cd1eb05d82d66f166b3",
+  "headline": "Subshell 0.92: thread colours, sorted search and feeds that keep your place",
   "highlights": [
-    "Settings › Updates shows your version and the newest one and checks on request. From the next release on, Update downloads it, checks it and hands it to Android to install.",
-    "When a new version is out, a notice says so. Close it and it stays away for a day.",
-    "Settings › Accounts › Export your Reddit data saves your saved posts, votes, posts, comments, communities and messages as a ZIP in Downloads.",
-    "Optional: tap a post's title to hide its text, like a comment. Turn it on in Settings › Comments & notifications.",
-    "More replies, community icons and find in thread work more reliably in big threads and ask Reddit less often."
+    "This update signs you out once: sign in and set up your Client ID or RedReader again, then add your widgets and pinned shortcuts back.",
+    "Settings › Comments › Thread colours: branch lines by depth or in one colour, each top-level comment in its own card. Off by default, works with Guide lines.",
+    "Sort search results and the posts on a profile, with a time range for Top.",
+    "Optional: Settings › Feeds & content › Resume where you left off opens Home and communities at your place after the app has been closed.",
+    "Find in thread has an OP chip that steps through the post author's comments.",
+    "Search no longer asks Google Trends: the empty search page shows only your history and Reddit's suggestions.",
+    "Fixed: video sound going on after Back from search or a profile, the keyboard coming back in search, links to a comment not landing on it.",
+    "Help & about now has the licence, the source code, every library's licence and what Reddit's January 2027 API change means."
   ]
 }
