@@ -1,20 +1,14 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 256,
-  "versionName": "0.92-beta",
-  "publishedAt": "2026-11-05T01:11:06Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v0.92-beta",
-  "apkSha256": "194d7136d5b4dde5aa65a8abe9f100000b305ec9546b3cd1eb05d82d66f166b3",
-  "headline": "Subshell 0.92: thread colours, sorted search and feeds that keep your place",
+  "versionCode": 257,
+  "versionName": "1.0.0-rc",
+  "publishedAt": "2026-11-06T10:53:58Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v1.0.0-rc",
+  "apkSha256": "05ab6c1c9c9d662c1be1210484d005b1abd5f015734d8f943611ae415c26b53f",
+  "headline": "Subshell 1.0 release candidate: the same app as 0.92, out for a last check of updating from inside the app",
   "highlights": [
-    "This update signs you out once: sign in and set up your Client ID or RedReader again, then add your widgets and pinned shortcuts back.",
-    "Settings › Comments › Thread colours: branch lines by depth or in one colour, each top-level comment in its own card. Off by default, works with Guide lines.",
-    "Sort search results and the posts on a profile, with a time range for Top.",
-    "Optional: Settings › Feeds & content › Resume where you left off opens Home and communities at your place after the app has been closed.",
-    "Find in thread has an OP chip that steps through the post author's comments.",
-    "Search no longer asks Google Trends: the empty search page shows only your history and Reddit's suggestions.",
-    "Fixed: video sound going on after Back from search or a profile, the keyboard coming back in search, links to a comment not landing on it.",
-    "Help & about now has the licence, the source code, every library's licence and what Reddit's January 2027 API change means."
+    "This is the release candidate for 1.0. The app is the same as 0.92; it is out so updating from inside the app can be checked once more before 1.0.",
+    "If Update or What's new does not work for you, tell us on r/subshell or GitHub."
   ]
 }
