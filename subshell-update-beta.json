@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 259,
-  "versionName": "1.0.0",
-  "publishedAt": "2026-11-10T21:11:36Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v1.0.0",
-  "apkSha256": "e0697ba3f03b5fdced65125759455486b508423b94cf494d766b30bb65e42530",
-  "headline": "Subshell 1.0: moderation tools, clearer comment threads and private data stored encrypted",
+  "versionCode": 260,
+  "versionName": "1.0.1",
+  "publishedAt": "2026-11-11T14:04:29Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v1.0.1",
+  "apkSha256": "52e9b9324e914e4792c3b748c57d0b061fff142ef728438fd26be41e7a4aa2ef",
+  "headline": "Subshell 1.0.1: fixes the app staying blank and \"not responding\" on the first start after updating from rc.2",
   "highlights": [
-    "Moderators can approve, remove or mark as spam from any ⋮ menu, change a post's flair, and see Removed, Edited and Unmoderated lists in Mod tools.",
-    "Comment threads are easier to follow: replies step right with each level (Settings > Comments > Reply indent), and Reply scrolls the comment you answer above the composer.",
-    "Tapping a post's flair searches its community for that flair, newest first.",
-    "New setting, off by default: Languages. Search skips communities and posts your phone is sure are in a language you have not chosen.",
-    "What is about you (inbox, joined communities, saved lists, hidden communities, notes, drafts, searches) is now stored encrypted. Diagnostics shows if anything cannot be opened.",
-    "Public posts, images and app settings are not encrypted. If something does not work for you, tell us on r/subshell or GitHub."
+    "Fixed: on some phones the app showed a blank window and then \"not responding\" on the first start after updating from rc.2. Starting no longer waits for encryption.",
+    "Data older versions stored as plain text is now encrypted in the background, and only while the app is not busy.",
+    "Feeds and the start stay fast on phones with a slow Android Keystore, and the app no longer freezes if the Keystore stops answering.",
+    "Diagnostics now keep where the app was stuck when Android reports it as not responding, so problems like this are easier to find.",
+    "If something does not work for you, tell us on r/subshell or GitHub."
   ]
 }
