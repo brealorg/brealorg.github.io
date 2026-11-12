@@ -1,17 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 260,
-  "versionName": "1.0.1",
-  "publishedAt": "2026-11-11T14:04:29Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v1.0.1",
-  "apkSha256": "52e9b9324e914e4792c3b748c57d0b061fff142ef728438fd26be41e7a4aa2ef",
-  "headline": "Subshell 1.0.1: fixes the app staying blank and \"not responding\" on the first start after updating from rc.2",
+  "versionCode": 261,
+  "versionName": "1.0.2",
+  "publishedAt": "2026-11-12T23:18:47Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v1.0.2",
+  "apkSha256": "7b6372ecd84cbc8bde00b79c88c855895ca8da2556de4f3ab0b6a2cc3a83c32d",
+  "headline": "Subshell 1.0.2: steadier comment threads, cleaner links and new defaults",
   "highlights": [
-    "Fixed: on some phones the app showed a blank window and then \"not responding\" on the first start after updating from rc.2. Starting no longer waits for encryption.",
-    "Data older versions stored as plain text is now encrypted in the background, and only while the app is not busy.",
-    "Feeds and the start stay fast on phones with a slow Android Keystore, and the app no longer freezes if the Keystore stops answering.",
-    "Diagnostics now keep where the app was stuck when Android reports it as not responding, so problems like this are easier to find.",
+    "Comment threads no longer jump while replies load. The comment you are reading stays where it is, also when you scroll up from an Inbox reply.",
+    "A thread opens where you left it, also after Android has closed the app in the background.",
+    "Replies load sooner and in fewer steps, and the loading row no longer flashes on screen.",
+    "Clean links: tracking parameters (utm_, fbclid and many more) are removed when you open a link. On by default; turn it off in Settings > Media & links.",
+    "Long links are shown short, in text and on link cards.",
+    "Long press a link to share it, copy it, open it in your browser, or copy the original address.",
+    "New defaults for settings you have never changed, among them the drawer on the right, 24-hour time, NSFW posts and media shown, and high video quality on mobile data. Settings you chose yourself stay as they are.",
+    "TalkBack reads a link post's picture by its site name instead of the whole address.",
     "If something does not work for you, tell us on r/subshell or GitHub."
   ]
 }
