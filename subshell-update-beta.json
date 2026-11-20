@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "versionCode": 263,
-  "versionName": "1.0.4",
-  "publishedAt": "2026-11-17T23:59:28Z",
-  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v1.0.4",
-  "apkSha256": "76637b269fc9d49b41be064ec4514a5fe7b17a1462eb2aa065fadbcb8ba19864",
-  "headline": "Subshell 1.0.4: polls that stay open, clearer mod queue reasons and a sturdier Wiki",
+  "versionCode": 264,
+  "versionName": "1.0.5",
+  "publishedAt": "2026-11-20T17:39:19Z",
+  "releaseUrl": "https://github.com/brealorg/subshell/releases/tag/v1.0.5",
+  "apkSha256": "da1955ea427224ebfbf2b511651e6467e5eb4ba9361ddabfd912115997e0a402",
+  "headline": "Subshell 1.0.5: swipes that act when you let go, and Reddit's own reasons when a post is refused",
   "highlights": [
-    "Reading: \"Open on Reddit to vote\" on a poll opens it in your browser and keeps it there, also when you sign in on the way. Subshell's links come back when you return.",
-    "Inbox: the ⋮ menu on a chat message stays open while the keyboard is up.",
-    "Moderation: mod queue cards name why an item is held, read from the mod log: \"Held by AutoModerator: <the rule's reason>\" or \"Held by Reddit's filters: <reason>\".",
-    "Moderation: an item removed by a named moderator or app says who removed it and is not called a filter hold, and a card's age shows before a long user flair.",
-    "Moderation: Back steps out of a mod tool and the community Wiki one step at a time, and the Mod tab comes back on its own after a failed check.",
-    "Wiki: a page or wiki that only exists in Reddit's new Wiki says so and offers Open on reddit.com, and config pages such as AutoModerator's read as plain text.",
-    "Behind the scenes: the app's text is ready for translation. This release is still in English only.",
+    "Swipes: a vote or other swipe action now runs the moment you let go, and the post or comment springs straight back instead of sliding off the screen.",
+    "Swipes: pick a swipe distance in Settings › Navigation & gestures and try it on a card there. Standard is a little longer than before; Short is the old distance.",
+    "Posting: when Reddit refuses a post or comment, the notice says why in Reddit's own words, for example a community's minimum length, and scrolls into view.",
+    "Posting: a community's own posting rules, such as a word the title must contain, are shown on the field they apply to.",
+    "Wiki: pages show when they were last edited, and that edits made in Reddit's new Wiki may not have reached apps.",
+    "Behind the scenes: newer Android libraries (Compose 1.13, Material 3 1.5).",
     "If something does not work for you, tell us on r/subshell or GitHub."
   ]
 }
